@@ -50,14 +50,14 @@ const  Hero = () => {
             <Grid container justifyContent="center" spacing={2} rowSpacing={3}>
                 
             <Grid size={4}>
-                <StyledButton>
+                <StyledButton onClick={() => console.log("Download")}>
                     <SimCardDownloadIcon/>
                     <Typography>Download</Typography>
                 </StyledButton>
             </Grid>
 
             <Grid size={4}>
-                   <StyledButton>
+                   <StyledButton onClick={() => console.log("Contract Me")}>
                     <PersonAddIcon/>
                   <Typography>Contract Me</Typography>
                 </StyledButton>
