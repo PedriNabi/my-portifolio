@@ -40,7 +40,6 @@ const  Hero = () => {
                         <StyledImage src={Avatar}/>
                     </Box>
                 </Box>
-                
             </Grid>
 
             <Grid size={8}>
