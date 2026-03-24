@@ -11,18 +11,18 @@ import { AnimatedBackground } from "../../../../components/animatedBackGround/an
 const  Hero = () => {
 
     const StyledAbout = styled("div")(({ theme }) => ({
-        background: "linear-gradient(135deg, #000000 0%, #202020 100%)",
+        background: "linear-gradient(135deg, #000000 0%, #2f2e2e 100%)",
         // ou: background: theme.gradients.secondary,
         height: "100vh",
         display: "flex",
         alignItems: "center",
         color: "white",
+        
     }));
 
 
        const StyledImage = styled("img")(({theme}) => ({
         width: "100%",
-        
         border: `2px solid ${theme.palette.primary.contrastText}`,
 
     }))
@@ -37,7 +37,7 @@ const  Hero = () => {
             <Grid size={4}>
                 <Stack spacing={2}>
                 <ListItem >Amostra do Site Catholic</ListItem>
-                <ListItem>BlaBlaBla</ListItem>
+                <ListItem>Técnologias Usadas</ListItem>
                 <ListItem>Column 1 - Row 3</ListItem>
                 </Stack>
             </Grid>
