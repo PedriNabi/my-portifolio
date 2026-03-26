@@ -148,12 +148,21 @@ const About = () => {
                                             pointerEvents: "none",
                                         }}
                                     />
-                          
                             </Box>
-
-                            
                         </BrowserFrame>
                     </MockupColumn>
+                     <Typography 
+                        sx={{
+                            color: "#444",
+                            fontSize: "11px",
+                            textAlign: "center",
+                            mt: 1.5,
+                            fontFamily: "monospace",
+                            letterSpacing: 1,
+                        }}
+                        >
+                        preview — portfolio-project
+                    </Typography>
                 </Grid>
 
 
