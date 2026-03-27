@@ -1,4 +1,7 @@
 import { Box, Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography, keyframes, styled } from "@mui/material"
+import onCumputer from "../../../../assets/images/OnComputer.png"
+import onServer from "../../../../assets/images/OnServer.jpeg"
+
 
 const glowPulse = keyframes`
   0%, 100% { box-shadow: 0 0 8px #6a00ff, 0 0 20px #6a00ff44; }
@@ -37,10 +40,10 @@ const Cards = () => {
 
         <Grid display="flex" gap={5}>
 
-          <Card sx={{ maxWidth: 345, animation: `${glowPulse} 2.0s ease-in-out infinite` }}>
+          <Card sx={{ maxWidth: 345, animation: `${glowPulse} 2.0s ease-in-out infinite`, display: "flex", flexDirection: "column" }}>
               <Box sx={{ display: "flex", justifyContent: "center", textAlign: "center"}}>
                 <CardActionArea>
-                    <CardMedia component="img" height="140" image="https://media.licdn.com/dms/image/v2/D5622AQFfSaU8yfWYhQ/feedshare-shrink_480/B56ZpmGweFHAAY-/0/1762649644526?e=1776297600&v=beta&t=ZWuBv3GkgLdtpBhs0iSBZeZ8Wg3KJBpQ20Kh1bX2njo" />
+                    <CardMedia component="img" height="200" image="https://media.licdn.com/dms/image/v2/D5622AQFfSaU8yfWYhQ/feedshare-shrink_480/B56ZpmGweFHAAY-/0/1762649644526?e=1776297600&v=beta&t=ZWuBv3GkgLdtpBhs0iSBZeZ8Wg3KJBpQ20Kh1bX2njo" />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 1° Lugar Hackathon da Saúde
@@ -59,16 +62,37 @@ const Cards = () => {
           </Card>
 
 
-          <Card sx={{ maxWidth: 345, animation: `${glowPulse} 2.0s ease-in-out infinite` }}>
+          <Card sx={{ maxWidth: 345, animation: `${glowPulse} 2.0s ease-in-out infinite`, display: "flex", flexDirection: "column" }}>
               <Box sx={{ display: "flex", justifyContent: "center", textAlign: "center"}}>
                 <CardActionArea>
-                    <CardMedia component="img" height="140" image="https://media.licdn.com/dms/image/v2/D5622AQFfSaU8yfWYhQ/feedshare-shrink_480/B56ZpmGweFHAAY-/0/1762649644526?e=1776297600&v=beta&t=ZWuBv3GkgLdtpBhs0iSBZeZ8Wg3KJBpQ20Kh1bX2njo" />
+                    <CardMedia component="img" height="200" src={onCumputer} />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                1° Lugar Hackathon da Saúde
+                                Atuação na Área!
                             </Typography>
                             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                Este projeto inovador visa elevar as taxas de vacinação infantil através da integração direta do histórico vacinal no boletim escolar. O sistema conecta os dados de saúde e educação para identificar automaticamente as vacinas pendentes de cada aluno, transformando a imunização em um indicador de desempenho.
+                                Atualmente atuo como desenvolvedor full stack na empresa Unilago, sou muito grato por poder aprender e estar em contato diretamente com a área podendo aplicar tudo o conhecimento que tenho e ter a oportunidade de aprender cada vez mais.
+                            </Typography>
+                        </CardContent>
+                </CardActionArea>
+               </Box>
+            <CardActions>
+                <Button size="small" color="primary">
+                    Ver Mais
+                </Button>
+            </CardActions>
+          </Card>
+
+          <Card sx={{ maxWidth: 345, animation: `${glowPulse} 2.0s ease-in-out infinite`, display: "flex", flexDirection: "column" }}>
+              <Box sx={{ display: "flex", justifyContent: "center", textAlign: "center"}}>
+                <CardActionArea>
+                    <CardMedia component="img" height="200" src={onServer} />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                                Experiência!
+                            </Typography>
+                            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                Possuo experiência na área de tecnologia, atuando com PHP, JavaScript e React no desenvolvimento de aplicações. Também tenho conhecimentos em infraestrutura, com foco em redes, cibersegurança e pentest, o que me proporciona uma visão mais completa e segura dos sistemas.
                             </Typography>
                         </CardContent>
                 </CardActionArea>
