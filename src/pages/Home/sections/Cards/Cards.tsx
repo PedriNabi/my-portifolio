@@ -31,10 +31,11 @@ const Cards = () => {
     return (
         <StyledSection>
 
-        <Grid display="flex">
 
         <Typography variant= "h3"sx={{color: "white", fontWeight: 700, marginBottom: "70px"}}>CONQUISTAS!</Typography>
 
+
+        <Grid display="flex" gap={5}>
 
           <Card sx={{ maxWidth: 345, animation: `${glowPulse} 2.0s ease-in-out infinite` }}>
               <Box sx={{ display: "flex", justifyContent: "center", textAlign: "center"}}>
