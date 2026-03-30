@@ -198,7 +198,7 @@ const About = () => {
                                 <TechChip key={tech} label={tech} size="small" />
                             ))}
 
-                            <StyledButton onClick={() => {}}>
+                            <StyledButton onClick={() => window.open("https://github.com/PedriNabi/my-portifolio")}>
                                  <OpenInNewIcon sx={{ fontSize: 16 }} />
                                  Ver Projeto
                                  </StyledButton>

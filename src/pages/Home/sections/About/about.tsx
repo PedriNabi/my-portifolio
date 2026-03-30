@@ -3,6 +3,7 @@ import ProjectImage from "../../../../assets/images/Amostra1.png"
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import StyledButton from "../../../../components/styledButton/styledButton";
 
+
 const glowPulse = keyframes`
   0%, 100% { box-shadow: 0 0 8px #6a00ff, 0 0 20px #6a00ff44; }
   50%       { box-shadow: 0 0 18px #6a00ff, 0 0 40px #6a00ff66; }
@@ -180,7 +181,7 @@ const About = () => {
                             </Box>
 
                             <Stack direction="row" spacing={2} sx={{ pt: 1 }}>
-                                <StyledButton onClick={() => {}}>
+                                <StyledButton onClick={() => window.open("https://github.com/PedriNabi/Catholic")}>
                                     <OpenInNewIcon sx={{ fontSize: 16 }} />
                                     Ver Projeto
                                 </StyledButton>

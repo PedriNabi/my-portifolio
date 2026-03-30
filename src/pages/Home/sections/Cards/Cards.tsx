@@ -43,7 +43,7 @@ const Cards = () => {
           <Card sx={{ maxWidth: 345, animation: `${glowPulse} 2.0s ease-in-out infinite`, display: "flex", flexDirection: "column" }}>
               <Box sx={{ display: "flex", justifyContent: "center", textAlign: "center"}}>
                 <CardActionArea>
-                    <CardMedia component="img" height="200" image="https://media.licdn.com/dms/image/v2/D5622AQFfSaU8yfWYhQ/feedshare-shrink_480/B56ZpmGweFHAAY-/0/1762649644526?e=1776297600&v=beta&t=ZWuBv3GkgLdtpBhs0iSBZeZ8Wg3KJBpQ20Kh1bX2njo" />
+                    <CardMedia onClick={() => window.open("https://www.funfarme.com.br/blog/2-hackathon-da-saude-reune-mais-de-120-estudantes-e-movimenta-ecossistema-de-inovacao-em-rio-preto")} component="img" height="200" image="https://media.licdn.com/dms/image/v2/D5622AQFfSaU8yfWYhQ/feedshare-shrink_480/B56ZpmGweFHAAY-/0/1762649644526?e=1776297600&v=beta&t=ZWuBv3GkgLdtpBhs0iSBZeZ8Wg3KJBpQ20Kh1bX2njo" />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
                                 1° Lugar Hackathon da Saúde
@@ -55,9 +55,7 @@ const Cards = () => {
                 </CardActionArea>
                </Box>
             <CardActions>
-                <Button size="small" color="primary">
-                    Ver Mais
-                </Button>
+                
             </CardActions>
           </Card>
 
@@ -77,9 +75,7 @@ const Cards = () => {
                 </CardActionArea>
                </Box>
             <CardActions>
-                <Button size="small" color="primary">
-                    Ver Mais
-                </Button>
+              
             </CardActions>
           </Card>
 
@@ -98,9 +94,7 @@ const Cards = () => {
                 </CardActionArea>
                </Box>
             <CardActions>
-                <Button size="small" color="primary">
-                    Ver Mais
-                </Button>
+              
             </CardActions>
           </Card>
 
